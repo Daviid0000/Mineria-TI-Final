@@ -1,0 +1,171 @@
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(30, 33, 34);
+    color: rgb(200, 195, 188);
+    line-height: 1.6;
+}
+
+header {
+    background: #5cb85c;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+    background: rgb(24, 26, 27);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: initial;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    color: #5cb85c;
+}
+
+.banner {
+    position: relative;
+    text-align: center;
+}
+
+.banner img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.banner .cta {
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #d9534f;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+section article {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 20px;
+}
+
+section article:last-child {
+    border-bottom: none;
+}
+
+section article img {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 8px;
+}
+
+section article h3 {
+    color: #5cb85c;
+    margin-top: 10px;
+}
+
+footer {
+    background: #5cb85c;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    background: rgb(62, 68, 70);
+}
+
+form button {
+    background: #5cb85c;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    font-size: 16px;
+}
+
+/* Registro y login */
+form button:hover {
+    background: #4cae4c;
+}
+
+.buttons:hover {
+    border-bottom: 3px solid #fff;
+}
+
+.title{
+    text-align: center;
+}
+
+.form{
+    width: 400px;
+    margin: auto;
+}
+
+.container{
+    margin-top: 10%;
+}
+
+.input{
+    color: #fff;
+}
+
+form a {
+    background: #5cb85c;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration-line: none;
+    font-size: 16px;
+}
